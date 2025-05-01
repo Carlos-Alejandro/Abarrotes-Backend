@@ -23,6 +23,7 @@
  *         - nombre
  *         - codigoBarras
  *         - precio
+
  *     Usuario:
  *       type: object
  *       properties:
@@ -32,4 +33,18 @@
  *           type: string
  *         rol:
  *           type: string
+
+ *     Cliente:
+ *       type: object
+ *       properties:
+ *         nombre:
+ *           type: string
+ *         telefono:
+ *           type: string
+ *         direccion:
+ *           type: string
+ *         correo:
+ *           type: string
+ *       required:
+ *         - nombre
  */

@@ -1,7 +1,9 @@
 /**
- * @swagger
+* @swagger
  * /api/auth/login:
  *   post:
+ *     tags:
+ *       - Auth
  *     summary: Iniciar sesión y obtener token JWT
  *     requestBody:
  *       required: true

@@ -1,28 +1,50 @@
 /**
  * @swagger
- * /api/productos:
- *   get:
- *     summary: Obtener todos los productos
- *     responses:
- *       200:
- *         description: Lista de productos
- *         content:
- *           application/json:
- *             schema:
- *               type: array
- *               items:
- *                 $ref: '#/components/schemas/Producto'
- *   post:
- *     summary: Crear un nuevo producto
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             $ref: '#/components/schemas/Producto'
- *     responses:
- *       201:
- *         description: Producto creado
- *       400:
- *         description: Error en la creación
+ * components:
+ *   schemas:
+ *     Producto:
+ *       type: object
+ *       properties:
+ *         nombre:
+ *           type: string
+ *         codigoBarras:
+ *           type: string
+ *         precio:
+ *           type: number
+ *         categoria:
+ *           type: string
+ *         stock:
+ *           type: number
+ *         unidad:
+ *           type: string
+ *         imagenUrl:
+ *           type: string
+ *       required:
+ *         - nombre
+ *         - codigoBarras
+ *         - precio
+
+ *     Usuario:
+ *       type: object
+ *       properties:
+ *         nombre:
+ *           type: string
+ *         email:
+ *           type: string
+ *         rol:
+ *           type: string
+
+ *     Cliente:
+ *       type: object
+ *       properties:
+ *         nombre:
+ *           type: string
+ *         telefono:
+ *           type: string
+ *         direccion:
+ *           type: string
+ *         correo:
+ *           type: string
+ *       required:
+ *         - nombre
  */

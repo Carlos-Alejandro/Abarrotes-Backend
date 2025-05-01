@@ -31,6 +31,11 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 // Rutas API
 app.use('/api/productos', require('./routes/producto.routes'));
 app.use('/api/auth', require('./routes/auth.routes'));
+app.use('/api/clientes', require('./routes/cliente.routes'));
+app.use('/api/usuarios', require('./routes/usuario.routes'));
+app.use('/api/ventas', require('./routes/venta.routes'));
+
+
 
 
 // Iniciar servidor
