@@ -63,8 +63,55 @@ bash
 Copiar
 Editar
 node server.js
-🧪 Endpoints principales
-<table> <thead> <tr> <th>Recurso</th> <th>Ruta base</th> <th>Requiere Token</th> </tr> </thead> <tbody> <tr><td><strong>Auth</strong></td><td><code>/api/auth</code></td><td>❌ No</td></tr> <tr><td><strong>Productos</strong></td><td><code>/api/productos</code></td><td>✅ Sí</td></tr> <tr><td><strong>Clientes</strong></td><td><code>/api/clientes</code></td><td>✅ Sí</td></tr> <tr><td><strong>Ventas</strong></td><td><code>/api/ventas</code></td><td>✅ Sí</td></tr> <tr><td><strong>Proveedores</strong></td><td><code>/api/proveedores</code></td><td>✅ Sí</td></tr> <tr><td><strong>Usuarios</strong></td><td><code>/api/usuarios</code></td><td>❌ Solo registro</td></tr> <tr><td><strong>Cierre Caja</strong></td><td><code>/api/cierreCaja</code></td><td>✅ Sí</td></tr> </tbody> </table>
+<h2>🧪 Endpoints principales</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Recurso</th>
+      <th>Ruta base</th>
+      <th>Requiere Token</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Auth</strong></td>
+      <td><code>/api/auth</code></td>
+      <td>❌ No</td>
+    </tr>
+    <tr>
+      <td><strong>Productos</strong></td>
+      <td><code>/api/productos</code></td>
+      <td>✅ Sí</td>
+    </tr>
+    <tr>
+      <td><strong>Clientes</strong></td>
+      <td><code>/api/clientes</code></td>
+      <td>✅ Sí</td>
+    </tr>
+    <tr>
+      <td><strong>Ventas</strong></td>
+      <td><code>/api/ventas</code></td>
+      <td>✅ Sí</td>
+    </tr>
+    <tr>
+      <td><strong>Proveedores</strong></td>
+      <td><code>/api/proveedores</code></td>
+      <td>✅ Sí</td>
+    </tr>
+    <tr>
+      <td><strong>Usuarios</strong></td>
+      <td><code>/api/usuarios</code></td>
+      <td>❌ Solo registro</td>
+    </tr>
+    <tr>
+      <td><strong>Cierre Caja</strong></td>
+      <td><code>/api/cierreCaja</code></td>
+      <td>✅ Sí</td>
+    </tr>
+  </tbody>
+</table>
+
 📘 Documentación Swagger
 📍 Abre en tu navegador:
 <a href="http://localhost:3000/api-docs" target="_blank"><code>http://localhost:3000/api-docs</code></a>
@@ -79,8 +126,23 @@ http
 Copiar
 Editar
 Authorization: Bearer <tu_token_aquí>
-👨‍💻 Autor
-<table> <tr> <td><strong>👤 Nombre:</strong></td> <td>Carlos Alejandro</td> </tr> <tr> <td><strong>📧 Email:</strong></td> <td><a href="mailto:carlos@example.com">carlos@example.com</a></td> </tr> <tr> <td><strong>📍 Ubicación:</strong></td> <td>Cancún, México</td> </tr> </table>
+## 👨‍💻 Autor
+
+<table>
+  <tr>
+    <td><strong>👤 Nombre:</strong></td>
+    <td>Carlos Alejandro</td>
+  </tr>
+  <tr>
+    <td><strong>📧 Email:</strong></td>
+    <td><a href="mailto:carlos@example.com">carlos@example.com</a></td>
+  </tr>
+  <tr>
+    <td><strong>📍 Ubicación:</strong></td>
+    <td>Cancún, México</td>
+  </tr>
+</table>
+
 📝 Licencia
 Este proyecto está licenciado bajo ISC.
 Puedes usarlo, adaptarlo y distribuirlo libremente.
