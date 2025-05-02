@@ -46,3 +46,9 @@ carlos-alejandro-abarrotes-backend/
 ```bash
 git clone https://github.com/tu-usuario/abarrotes-backend.git
 cd abarrotes-backend
+
+2. Instala las dependencias
+bash
+Copiar
+Editar
+npm install
