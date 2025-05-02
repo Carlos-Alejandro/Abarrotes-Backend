@@ -40,26 +40,33 @@ carlos-alejandro-abarrotes-backend/
 ---
 
 ## ⚙️ Instalación y ejecución
-
 ### 1. Clona el repositorio
 
 ```bash
 git clone https://github.com/tu-usuario/abarrotes-backend.git
 cd abarrotes-backend
-2. Instala las dependencias
-bash
-Copiar
-Editar
+
+✅ Esto crea un bloque visual para ese paso en GitHub.
+
+---
+
+### **3. Escribe el segundo paso con su propio bloque `bash` (nuevo bloque separado)**
+
+```markdown
+### 2. Instala las dependencias
+
+```bash
 npm install
-3. Crea un archivo .env en la raíz
-env
-Copiar
-Editar
+
+---
+
+### **4. Escribe el tercer paso con bloque `env`**
+
+```markdown
+### 3. Crea un archivo `.env` en la raíz
+
+```env
 PORT=3000
 MONGO_URI=mongodb://localhost:27017/abarrotes_db
 JWT_SECRET=tu_clave_secreta
-4. Inicia el servidor
-bash
-Copiar
-Editar
-node server.js
+
