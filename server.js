@@ -34,7 +34,8 @@ app.use('/api/auth', require('./routes/auth.routes'));
 app.use('/api/clientes', require('./routes/cliente.routes'));
 app.use('/api/usuarios', require('./routes/usuario.routes'));
 app.use('/api/ventas', require('./routes/venta.routes'));
-
+app.use('/api/cierreCaja', require('./routes/cierreCaja.routes'));
+app.use('/api/proveedores', require('./routes/proveedor.routes'));
 
 
 

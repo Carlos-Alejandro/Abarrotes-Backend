@@ -17,10 +17,10 @@
  *             properties:
  *               email:
  *                 type: string
- *                 example: admin@abarrotes.com
+ *                 example: carlos@example.com
  *               password:
  *                 type: string
- *                 example: admin123
+ *                 example: 12345678
  *     responses:
  *       200:
  *         description: Login exitoso con token

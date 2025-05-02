@@ -1,12 +1,16 @@
 const mongoose = require('mongoose');
 
+const productoSchema = new mongoose.Schema({
+  nombre: String,
+  cantidad: Number,
+  precioUnitario: Number
+});
+
 const ventaSchema = new mongoose.Schema({
-  clienteId: { type: mongoose.Schema.Types.ObjectId, ref: 'Cliente', required: true },
-  productos: [{
-    productoId: { type: mongoose.Schema.Types.ObjectId, ref: 'Producto', required: true },
-    cantidad: { type: Number, required: true }
-  }],
+  cliente: { type: String, required: true },
+  productos: [productoSchema],
   total: { type: Number, required: true },
+  tipoPago: { type: String, enum: ['Efectivo', 'Tarjeta'], required: true },
   fecha: { type: Date, default: Date.now }
 }, {
   timestamps: true
